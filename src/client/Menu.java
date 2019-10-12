@@ -3,6 +3,7 @@ package cliente;
 import java.io.IOException;
 
 public class Menu {
+    private int potato;
 
     private Printer printer = new Printer();
     private Reader reader = new Reader(System.in);
